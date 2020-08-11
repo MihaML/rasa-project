@@ -1,0 +1,463 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- Hi bot
+- Hey bot
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- whats up
+- yo
+- whatup
+- waddup
+- how are you
+- how are you doing
+- how are u doin
+- how u doin
+- how r u
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- Ya
+- Yep
+- Yup
+- YAAAAAS
+- Totally
+- Totes
+- Sure
+- You bet
+- OK
+- K
+- Okay
+- Okie dokie
+- Alright
+- Alrighty
+- Sounds good
+- For sure
+- Sure thing
+- Certainly
+- Definitely
+- Of course
+- Gladly
+- Indubitably
+- Absolutely
+- Indeed
+- Undoubtedly
+- Yeah, yeah, yeah
+- Fine
+- Affirmative
+- Very well
+- Obviously
+- Mhmm
+- Uh-huh
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- Nah
+- Nope
+- Sorry no
+- Not now
+- Certainly not
+- By no means
+- I shall not
+- Not likely
+- No thanks!
+- I think not.
+- Unfortunately not
+- I’m slammed
+- Not possible
+- Not this time
+- Not for me, thanks
+- It’s not my thing
+- I think I’ll pass.
+- Not today, thanks
+- I wish I could but…
+- I’m taking sometime
+- Maybe another time
+- I’m not interested
+- If only I could!
+- If only it worked
+- I’m afraid I can’t
+- I have something else
+- I don’t think I want to
+- Thanks, but no thanks
+- Rats! Would’ve loved to
+- Not now, but another time
+- I’m honored, but I can’t
+- I wish I were able to
+- Damn! Not able to fit it in
+- I won’t be able to help
+- I’d love to – but can’t
+- I’d rather not, thanks
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- I'm fine thank you.
+- I feel great 
+- I feel marvellous
+- I feel fine
+- Im fine
+- Couldn't be better.
+- Fit as a fiddle.
+- Very well, thanks.
+- Im Okay.
+- Alright.
+- Not bad.
+- Much better.
+- All the better for seeing you.
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- I feel blue
+- I feel so down
+- I feel very bad
+- I’m not all right
+- I feel depressed
+- I’m out of sorts today
+- I feel pathetic
+- I don’t feel well
+- I’m down to the dumps
+- I hate my life
+- I feel gloomy
+- I’m under a cloud
+- I have the blues
+- I’m worried sick about everything
+- I have holiday blues
+- I cried my brain (eyes) out
+- I’m in low spirits
+- I’m suffering
+- I’m dejected
+- I’m all gone to pieces
+- I’m having rainy days lately
+- I’m dispirited
+- I feel mopish
+- I’m feeling down in the mouth 
+- I’m sorrowful
+- I’m a mess
+- I feel so lugubrious
+- I fell my life have ceased to have a  meaning
+- I have trouble in my mind
+- I’m drowning in the grief
+- I feel upset
+- I feel downcast
+- I feel bummed out
+- I hit the bottom again
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- are you a robot?
+- am I talking to an actual person?
+- you're a bot aren't you?
+- are you even a real person?
+- what are you
+- who am i talking to
+- what am i talking to
+
+## intent:thanks
+- thanks
+- thank you
+- thank you very much
+- ty
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+
+## intent:covid_check
+- I would like to know if i have [Coronavirus](disease)
+- Do i have [Coronavirus](disease) ?
+- Am i infected with [Coronavirus](disease) ?
+- Is it possible that i have [Coronavirus](disease) ?
+- Do i have [Coronavirus](disease) Symptoms ?
+- Do i have symptoms of [Coronavirus](disease) ?
+- I would like to know if i have [Covid](disease)
+- Do i have [Covid](disease) ?
+- Am i infected with [Covid](disease) ?
+- Is it possible that i have [Covid](disease) ?
+- Do i have [Covid](disease) Symptoms ?
+- Do i have symptoms of [Covid](disease) ?
+- I would like to know if i have [Covid-19](disease)
+- Do i have [Covid-19](disease) ?
+- Am i infected with [Covid-19](disease) ?
+- Is it possible that i have [Covid-19](disease) ?
+- Do i have [Covid-19](disease) Symptoms ?
+- Do i have symptoms of [Covid-19](disease) ?
+- I would like to know if i have [Coronavirus](disease)
+- Do i have [Coronavirus](disease)
+- Am i infected with [Coronavirus](disease)
+- Is it possible that i have [Coronavirus](disease)
+- Do i have [Coronavirus](disease) Symptoms
+- Do i have symptoms of [Coronavirus](disease)
+
+## intent:nearest_outbreak
+- where is the nearest outbreak
+- where is the closest outbreak
+- i would like to know where the nearest outbreak is
+- i would like to know where the closest outbreak is
+- can you tell me if there is an outbreak of [coronavirus](disease) near me
+- can you tell me if there is an outbreak of [coronavirus](disease) close to me
+- are there any [Covid](disease) outbreaks near me
+- are there any infected people near me
+- is there anyone that is infected near me
+- is there anyone that is infected close to me
+- where are the closest outbreaks near me
+
+## intent:treatment
+- what is the main treatment for [coronavirus](disease)
+- is there treatment for [coronavirus](disease)
+- how is the treamtent for [coronavirus](disease) going
+- is there a treatment
+- is there a vaccine for [coronavirus](disease)
+- when is the vaccine for [coronavirus](disease) coming
+- when will the [coronavirus](disease) vaccine be released
+- how long before there is a [coronavirus](disease) vaccine
+- how much time before there is a cure for [coronavirus](disease)
+- [coronavirus](disease) vaccine state
+- is there a vaccine
+- is there a treatment available
+- what is the main treatment for [covid](disease)
+- is there treatment for [covid](disease)
+- how is the treamtent for [covid](disease) going
+- is there a treatment
+- is there a vaccine for [covid](disease)
+- when is the vaccine for [covid](disease) coming
+- when will the [covid](disease) vaccine be released
+- how long before there is a [covid](disease) vaccine
+- how much time before there is a cure for [covid](disease)
+- [covid](disease) vaccine state
+- is there a vaccine
+- is there a treatment available
+- what is the main treatment for [covid-19](disease)
+- is there treatment for [covid-19](disease)
+- how is the treamtent for [covid-19](disease) going
+- is there a treatment
+- is there a vaccine for [covid-19](disease)
+- when is the vaccine for [covid-19](disease) coming
+- when will the [covid-19](disease) vaccine be released
+- how long before there is a [covid-19](disease) vaccine
+- how much time before there is a cure for [covid-19](disease)
+- [covid-19](disease) vaccine state
+- is there a vaccine
+- is there a treatment available
+
+## intent:covid_protection
+- how do i protect myself from [covid](disease)
+- what do i need to do to protect myself from [covid](disease)
+- what should i do to prevent getting infected with [covid](disease)
+- how can i prevent being infected with [covid](disease)
+- i would like to know how to avoid getting infected with [covid](disease)
+- what are the current safety requirements in the [UK](location)
+- how do i minimize the risks of getting infected
+- protect myself
+- avoid getting infected
+- [covid](disease) protection rules
+- how do i protect myself from [coronavirus](disease)
+- what do i need to do to protect myself from [coronavirus](disease)
+- what should i do to prevent getting infected with [coronavirus](disease)
+- how can i prevent being infected with [coronavirus](disease)
+- i would like to know how to avoid getting infected with [coronavirus](disease)
+- what are the current safety requirements in the [UK](location)
+- how do i minimize the risks of getting infected
+- protect myself
+- avoid getting infected
+- [coronavirus](disease) protection rules
+- how do i protect myself from [covid-19](disease)
+- what do i need to do to protect myself from [covid-19](disease)
+- what should i do to prevent getting infected with [covid-19](disease)
+- how can i prevent being infected with [covid-19](disease)
+- i would like to know how to avoid getting infected with [covid-19](disease)
+- what are the current safety requirements in the [UK](location)
+- how do i minimize the risks of getting infected
+- protect myself
+- avoid getting infected
+- [covid-19](disease) protection rules
+
+## intent:covid_whatis
+- what is [coronavirus](disease)
+- what is the [coronavirus](disease)
+- how does [coronavirus](disease) work
+- how does [coronavirus](disease) infect people
+- how did [coronavirus](disease) happen
+- how is [coronavirus](disease) spread
+- i wanna know what [coronavirus](disease) is
+- yo what is [coronavirus](disease)
+- what is [covid](disease)
+- what is the [covid](disease)
+- how does [covid](disease) work
+- how does [covid](disease) infect people
+- how did [covid](disease) happen
+- how is [covid](disease) spread
+- i wanna know what [covid](disease) is
+- yo what is [covid](disease)
+- what is [covid-19](disease)
+- what is the [covid-19](disease)
+- how does [covid-19](disease) work
+- how does [covid-19](disease) infect people
+- how did [covid-19](disease) happen
+- how is [covid-19](disease) spread
+- i wanna know what [covid-19](disease) is
+- yo what is [covid-19](disease)
+
+## intent:covid_symptoms
+- what are the [coronavirus](disease) symptoms
+- what are the symptoms for [coronavirus](disease)
+- what symptoms is there for [coronavirus](disease)
+- what are the main [coronavirus](disease) symptoms
+- what are all the [coronavirus](disease) symptoms
+- tell me the [coronavirus](disease) symptoms
+- which are the symptoms for [coronavirus](disease)
+- i wanna know what the symptoms are for [coronavirus](disease)
+- i would like to know what [coronavirus](disease) symptoms are
+- tell me what the [coronavirus](disease) symptoms are
+- what are the [covid](disease) symptoms
+- what are the symptoms for [covid](disease)
+- what symptoms is there for [covid](disease)
+- what are the main [covid](disease) symptoms
+- what are all the [covid](disease) symptoms
+- tell me the [covid](disease) symptoms
+- which are the symptoms for [covid](disease)
+- i wanna know what the symptoms are for [covid](disease)
+- i would like to know what [covid](disease) symptoms are
+- tell me what the [covid](disease) symptoms are
+- what are the [covid-19](disease) symptoms
+- what are the symptoms for [covid-19](disease)
+- what symptoms is there for [covid-19](disease)
+- what are the main [covid-19](disease) symptoms
+- what are all the [covid-19](disease) symptoms
+- tell me the [covid-19](disease) symptoms
+- which are the symptoms for [covid-19](disease)
+- i wanna know what the symptoms are for [covid-19](disease)
+- i would like to know what [covid-19](disease) symptoms are
+- tell me what the [covid-19](disease) symptoms are
+
+## intent:covid_tests
+- what are the current available [coronavirus](disease) tests
+- how many [coronavirus](disease) tests are there
+- what tests are there for [coronavirus](disease)
+- i want to test myself for [coronavirus](disease), what tests are there
+- how much do [coronavirus](disease) tests cost
+
+## intent:covid_statistics
+- what are the [coronavirus](disease) statistics
+- what are the [coronavirus](disease) statistics worldwide
+- what are the [corona](disease) statistics
+- what are the [coronavirus](disease) statistics worldwide
+- what are the [covid-19](disease) statistics
+- what are the [covid-19](disease) statistics worldwide
+- what are the [covid](disease) statistics
+- what are the [covid](disease) statistics worldwide
+- how many deaths are there due to [coronavirus](disease)
+- how many infected are there
+- how many recovered people are there
+- what is the ammount of recovered people
+- what is the ammount of deaths
+- what is the ammount of confirmed cases in the world
+- how many deaths, recovered people and confirmed cases are there
+- what is the ammount of recovered people, deaths and cases.
+- confirmed cases
+- deaths worldwide
+- recovered ammount
+- how many cases of [coronavirus](disease) are there in [the United Kingdom](location)
+- how many cases of [covid](disease) are there in [Spain](location)
+- how many cases of [covid-19](disease) are there in [Germany](location)
+- how many cases of [corona](disease) are there in [Italy](location)
+- how many cases of [coronavirus](disease) are there in [Russia](location)
+- how many cases of [coronavirus](disease) are there in [Brazil](location)
+- how many cases of [coronavirus](disease) are there in [Spain](location)
+
+## intent:symptom_duration
+- how long do [coronavirus](disease) symptoms last
+- if i have [covid](disease) symptoms how long do they last
+- how long will i have [corona](disease) symptoms for
+- i have [covid-19](disease) symptoms, how long do they last
+- if i have [coronavirus](disease), how long will the symptoms last for
+- symptoms duration
+- [coronavirus](disease) symtoms time period
+- [coronavirus](disease) symptoms duration
+- i wanna know how long the symptoms for [coronavirus](disease) last for
+- do [coronavirus](disease) symptoms last long ?
+- are the symptoms for [coronavirus](disease) of lon duration
+- how long do i have to worry about [coronavirus](disease) symptoms if i have them
+
+## intent:covid19_name
+- 
+
+## intent:novel_coronavirus
+- 
+
+## intent:how_spread
+- 
+
+## intent:how_many_deaths
+- 
+
+## intent:how_many_recovered
+- 
+
+## intent:how_many_cases
+- 
