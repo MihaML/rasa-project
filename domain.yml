@@ -190,10 +190,12 @@ responses:
   utter_covid_symptoms:
   - text: "COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover
           without hospitalization.
+          \n
           \nMost common symptoms:
           \n- fever
           \n- dry cough
           \n- tiredness
+          \n
           \nLess common symptoms:
           \n- aches and pains
           \n- sore throat
@@ -202,10 +204,12 @@ responses:
           \n- headache
           \n- loss of taste or smell
           \n- a rash on skin, or discolouration of fingers or toes
+          \n
           \nSerious symptoms:
           \n- difficulty breathing or shortness of breath
           \n- chest pain or pressure
           \n- loss of speech or movement
+          \n
           \nSeek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.
           \nPeople with mild symptoms who are otherwise healthy should manage their symptoms at home.
           \nOn average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."
