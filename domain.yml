@@ -169,7 +169,6 @@ responses:
           the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus
           disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease.
           Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”.
-
           There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses.
           COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans."
 
@@ -182,7 +181,6 @@ responses:
           produced when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who
           are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another
           (within about 6 feet).
-
           COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas.
           Community spread means people have been infected with the virus in an area, including some who are not sure how or where they
           became infected."
@@ -190,11 +188,15 @@ responses:
   utter_covid_symptoms:
   - text: "COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover
           without hospitalization.
+          \n
           \nMost common symptoms:
+          \n
           \n- fever
           \n- dry cough
           \n- tiredness
+          \n
           \nLess common symptoms:
+          \n
           \n- aches and pains
           \n- sore throat
           \n- diarrhoea
@@ -202,10 +204,13 @@ responses:
           \n- headache
           \n- loss of taste or smell
           \n- a rash on skin, or discolouration of fingers or toes
+          \n
           \nSerious symptoms:
+          \n
           \n- difficulty breathing or shortness of breath
           \n- chest pain or pressure
           \n- loss of speech or movement
+          \n
           \nSeek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.
           \nPeople with mild symptoms who are otherwise healthy should manage their symptoms at home.
           \nOn average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."
@@ -214,13 +219,11 @@ responses:
   - text: "Coronavirus disease 2019 (COVID-19) is the official name given by the World Health Organization (WHO) to the disease caused by
           SARS-CoV-2, the new coronavirus that surfaced in Wuhan, China in 2019 and spread around the globe. The WHO has characterized
           COVID-19 as a pandemic, a disease outbreak that covers a wide geographic area and affects an exceptionally high proportion of people.
-
           Knowledge about the spread and potential treatment of COVID-19 is evolving rapidly as scientists investigate the disease. There is
           much to learn about how the virus spreads and why it affects people in different ways—some have mild symptoms or no symptoms at all, 
           while others experience severe symptoms and even die from the disease. While doctors are still working to develop a complete clinical 
           picture, people ages 65 and older, and people of all ages with underlying health conditions appear to be at higher risk of developing 
           serious illness. 
-
           But the disease has also led to serious illness and deaths in younger and middle-aged adults who are otherwise healthy. While COVID-19 
           is rare in children, doctors are concerned about a condition they are calling pediatric multisystem inflammatory syndrome (PMIS), which 
           can infect infants through teenagers and can cause dangerous inflammation levels throughout the body. While more information is needed, 
@@ -229,7 +232,9 @@ responses:
   utter_covid_prevention:
   - text: "Protect yourself and others around you by knowing the facts and taking appropriate precautions. Follow advice provided by your local 
           health authority.
+          \n
           \nTo prevent the spread of COVID-19:
+          \n
           \n- Clean your hands often. Use soap and water, or an alcohol-based hand rub.
           \n- Maintain a safe distance from anyone who is coughing or sneezing.
           \n- Wear a mask when physical distancing is not possible.
@@ -237,23 +242,29 @@ responses:
           \n- Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
           \n- Stay home if you feel unwell.
           \n- If you have a fever, cough and difficulty breathing, seek medical attention.
+          \n
           \nCalling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents 
           the spread of viruses and other infections.
+          \n
           \nMasks:
+          \n
           \nMasks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, 
           and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority."
 
   utter_covid_treatment:
   - text: "To date, there are no specific vaccines or medicines for COVID-19. Treatments are under investigation, and will be tested through clinical 
-          trials. World Health Organization
-          \nSelf care
+          trials.
+          \n
           \nIf you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and 
           use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces.
+          \n
           \nEveryone should keep a healthy lifestyle at home. Maintain a healthy diet, sleep, stay active, and make social contact with loved ones 
           through the phone or internet. Children need extra love and attention from adults during difficult times. Keep to regular routines and 
           schedules as much as possible.
+          \n
           \nIt is normal to feel sad, stressed, or confused during a crisis. Talking to people you trust, such as friends and family, can help. 
           If you feel overwhelmed, talk to a health worker or counsellor.
+          \n
           \nFor updated information on the current state of the vaccines visit: 
           https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines "
 
@@ -267,7 +278,9 @@ responses:
 
   utter_covid_tests:
   - text: "Two kinds of tests are available for COVID-19: viral tests and antibody tests.
+          \n
           \n- A viral test tells you if you have a current infection.
+          \n
           \n- An antibody test might tell you if you had a past infection. An antibody test might not show if you have a current infection because 
           it can take 1–3 weeks after infection for your body to make antibodies. Having antibodies to the virus that causes COVID-19 might provide 
           protection from getting infected with the virus again. If it does, it is not known how much protection the antibodies might provide or how 
@@ -328,6 +341,7 @@ responses:
 
   utter_no_severe_symptoms:
   - text: "Looks like you have no severe symptoms of Coronavirus. However you could still have mild symptoms. 
+          \n
           \nIm going to perform a series of questions to further deepen into your case. Is that okay ?"
     buttons:
       - title: "Yes"
