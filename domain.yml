@@ -12,7 +12,6 @@ intents:
   - covid_check
   - nearest_outbreak
   - covid_statistics
-  - safety_requirements
   - covid_tests
   - treatment
   - symptom_duration
@@ -22,9 +21,8 @@ intents:
   - covid19_name
   - novel_coronavirus
   - how_spread
-  - how_many_deaths
-  - how_many_recovered
-  - how_many_cases
+  - what_questions
+  - why_so_deadly
 
 # --------------------------------------------------------------------------
 
@@ -53,21 +51,21 @@ slots:
   location:
     type: unfeaturized
   severe_symptom_one:
-    type: bool
+    type: float
   severe_symptom_two:
-    type: bool
+    type: float
   severe_symptom_three:
-    type: bool
+    type: float
   severe_symptom_four:
-    type: bool
+    type: float
   moderate_symptom_one:
-    type: bool
+    type: float
   moderate_symptom_two:
-    type: bool
+    type: float
   moderate_symptom_three:
-    type: bool
+    type: float
   moderate_symptom_four:
-    type: bool
+    type: float
 
 # --------------------------------------------------------------------------
 
@@ -96,7 +94,8 @@ actions:
   - utter_how_can_help
   - utter_no_moderate_symptoms
   - utter_some_moderate_symptoms
-  - action_how_many_symptoms
+  - action_how_many_s_symptoms
+  - action_how_many_m_symptoms
   - utter_covid_symptoms
   - utter_covid_explain
   - utter_covid_prevention
@@ -106,17 +105,18 @@ actions:
   - utter_covid_name
   - utter_novel_coronavirus
   - utter_how_spread
+  - utter_questions_list
+  - utter_why_so_deadly
 
 # --------------------------------------------------------------------------
 
 responses:
   utter_greet:
-  - text: "Hello! I am the Covid-19 checker bot.
+  - text: "Hello! I am the Covid-19 chatbot.
           \nYou can ask me questions like:
           \n
           \n- What are the statistics for Covid ? (updating)
-          \n- Do i have Coronavirus symptoms ? (updating)
-          \n- How long do Coronavirus symptoms last for ?
+          \n- what are the Coronavirus symptoms ?
           \n- What are the current safety requirements ?
           \n- Is there a Covid-19 vaccine available ?
           \n
@@ -128,7 +128,12 @@ responses:
           \nMeanwhile you can ask me other questions and explore the different features I have to offer"
 
   utter_how_can_help:
-  - text: "How can I help you ?"
+  - text: "What would you like to ask?"
+
+  utter_who_at_risk:
+  - text: "The risk of developing dangerous symptoms of COVID-19 may be increased in people who are older and also in people of any age 
+          who have other serious health problems — such as heart or lung conditions, weakened immune systems, severe obesity, or diabetes. 
+          This is similar to what is seen with other respiratory illnesses, such as influenza."
 
   utter_more_help:
   - text: "Can I help you with anything else ?"
@@ -137,6 +142,22 @@ responses:
         payload: "/affirm"
       - title: "No"
         payload: "/deny"
+
+  utter_questions_list:
+  - text: "You can ask me about:
+          \n
+          \n - What Coronavirus is
+          \n - Safety requirements
+          \n - Types of tests
+          \n - Vaccines
+          \n - Symptoms
+          \n - Symptom duration
+          \n - Virus spread
+          \n - CoVid-19 name
+          \n - Novel Coronavirus
+          \n - Why it is so deadly 
+          \n - Statistics (updating)
+          \n - Symptom checker (updating)"
 
   utter_glad_of_service:
   - text: "Im glad I was of service, have a safe day :)"
@@ -164,12 +185,16 @@ responses:
   utter_thanks:
   - text: "You are welcome"
 
+  utter_why_so_deadly:
+  - text: ""
+
   utter_covid_name:
   - text: "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing 
           the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus
           disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease.
           Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”.
-          There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses.
+          \n
+          \nThere are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses.
           COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans."
 
   utter_novel_coronavirus:
@@ -181,7 +206,8 @@ responses:
           produced when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who
           are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another
           (within about 6 feet).
-          COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas.
+          \n
+          \nCOVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in many affected geographic areas.
           Community spread means people have been infected with the virus in an area, including some who are not sure how or where they
           became infected."
 
@@ -219,12 +245,14 @@ responses:
   - text: "Coronavirus disease 2019 (COVID-19) is the official name given by the World Health Organization (WHO) to the disease caused by
           SARS-CoV-2, the new coronavirus that surfaced in Wuhan, China in 2019 and spread around the globe. The WHO has characterized
           COVID-19 as a pandemic, a disease outbreak that covers a wide geographic area and affects an exceptionally high proportion of people.
-          Knowledge about the spread and potential treatment of COVID-19 is evolving rapidly as scientists investigate the disease. There is
+          \n
+          \nKnowledge about the spread and potential treatment of COVID-19 is evolving rapidly as scientists investigate the disease. There is
           much to learn about how the virus spreads and why it affects people in different ways—some have mild symptoms or no symptoms at all, 
           while others experience severe symptoms and even die from the disease. While doctors are still working to develop a complete clinical 
           picture, people ages 65 and older, and people of all ages with underlying health conditions appear to be at higher risk of developing 
           serious illness. 
-          But the disease has also led to serious illness and deaths in younger and middle-aged adults who are otherwise healthy. While COVID-19 
+          \n
+          \nBut the disease has also led to serious illness and deaths in younger and middle-aged adults who are otherwise healthy. While COVID-19 
           is rare in children, doctors are concerned about a condition they are calling pediatric multisystem inflammatory syndrome (PMIS), which 
           can infect infants through teenagers and can cause dangerous inflammation levels throughout the body. While more information is needed, 
           medical experts believe PMIS is related to COVID-19."
@@ -298,33 +326,33 @@ responses:
   - text: "Are you noticeably breathless and can do very little ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm{"severe_symptom_one": True}'
+        payload: '/affirm{"severe_symptom_one": 1}'
       - title: "No"
-        payload: '/deny{"severe_symptom_one": False}'
+        payload: '/deny{"severe_symptom_one": 0}'
 
   utter_severe_symptom_2:
   - text: "Does your chest, stomach or back hurt when you breathe ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"severe_symptom_two": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"severe_symptom_two": 0}'
 
   utter_severe_symptom_3:
   - text: "Is your temperature high ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"severe_symptom_three": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"severe_symptom_three": 0}'
 
   utter_severe_symptom_4:
   - text: "Is eating or drinking a hard task ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"severe_symptom_four": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"severe_symptom_four": 0}'
 
   utter_some_moderate_symptoms:
   - text: "It seems that you have some moderate symptoms of Covid-19. If these symptoms worsen or persist it is highly recommended you get in contact 
@@ -363,33 +391,33 @@ responses:
   - text: "Do you have a troublesome cough ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"moderate_symptom_one": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"moderate_symptom_one": 0}'
 
   utter_moderate_symptom_2:
   - text: "Are you experiencing diarrhoea, nausea or vomiting ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"moderate_symptom_two": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"moderate_symptom_two": 0}'
 
   utter_moderate_symptom_3:
   - text: "Do you have a headache ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"moderate_symptom_three": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"moderate_symptom_three": 0}'
 
   utter_moderate_symptom_4:
   - text: "Are you feeling tired or lacking energy during the entirety of the day ?"
     buttons:
       - title: "Yes"
-        payload: '/affirm'
+        payload: '/affirm{"moderate_symptom_four": 1}'
       - title: "No"
-        payload: '/deny'
+        payload: '/deny{"moderate_symptom_four": 0}'
 
   utter_submit:
   - text: "All done!"
