@@ -25,15 +25,6 @@
 - how are u doin
 - how u doin
 - how r u
-- heeey
-- hey gorgeous how you doing
-- whatsup bot
-- Hi
-- Could you please help me?
-- What can you do?
-- Can you help me?
-- Hello?
-- Hey
 
 ## intent:goodbye
 - bye
@@ -42,6 +33,7 @@
 - see you later
 - Bye bot
 - Goodbye friend
+- bye
 - bye for now
 - catch you later
 - gotta go
@@ -51,7 +43,6 @@
 - i'm off
 - see you later alligator
 - we'll speak soon
-- Thank you, goodbye
 
 ## intent:affirm
 - yes
@@ -146,7 +137,7 @@
 - I am great
 - I'm good
 - I'm fine thank you.
-- I feel great
+- I feel great 
 - I feel marvellous
 - I feel fine
 - Im fine
@@ -193,7 +184,7 @@
 - I’m having rainy days lately
 - I’m dispirited
 - I feel mopish
-- I’m feeling down in the mouth
+- I’m feeling down in the mouth 
 - I’m sorrowful
 - I’m a mess
 - I feel so lugubrious
@@ -256,12 +247,12 @@
 - Is it possible that i have [Covid-19](disease) ?
 - Do i have [Covid-19](disease) Symptoms ?
 - Do i have symptoms of [Covid-19](disease) ?
+- I would like to know if i have [Coronavirus](disease)
 - Do i have [Coronavirus](disease)
 - Am i infected with [Coronavirus](disease)
 - Is it possible that i have [Coronavirus](disease)
 - Do i have [Coronavirus](disease) Symptoms
 - Do i have symptoms of [Coronavirus](disease)
-- Hello I think I have [covid](disease)
 
 ## intent:nearest_outbreak
 - where is the nearest outbreak
@@ -292,23 +283,27 @@
 - what is the main treatment for [covid](disease)
 - is there treatment for [covid](disease)
 - how is the treamtent for [covid](disease) going
+- is there a treatment
 - is there a vaccine for [covid](disease)
 - when is the vaccine for [covid](disease) coming
 - when will the [covid](disease) vaccine be released
 - how long before there is a [covid](disease) vaccine
 - how much time before there is a cure for [covid](disease)
 - [covid](disease) vaccine state
+- is there a vaccine
+- is there a treatment available
 - what is the main treatment for [covid-19](disease)
 - is there treatment for [covid-19](disease)
 - how is the treamtent for [covid-19](disease) going
+- is there a treatment
 - is there a vaccine for [covid-19](disease)
 - when is the vaccine for [covid-19](disease) coming
 - when will the [covid-19](disease) vaccine be released
 - how long before there is a [covid-19](disease) vaccine
 - how much time before there is a cure for [covid-19](disease)
 - [covid-19](disease) vaccine state
-- is there a [covid-19](disease) vaccine available
-- Is there a vaccine?
+- is there a vaccine
+- is there a treatment available
 
 ## intent:covid_protection
 - how do i protect myself from [covid](disease)
@@ -326,16 +321,21 @@
 - what should i do to prevent getting infected with [coronavirus](disease)
 - how can i prevent being infected with [coronavirus](disease)
 - i would like to know how to avoid getting infected with [coronavirus](disease)
+- what are the current safety requirements in the [UK](location)
+- how do i minimize the risks of getting infected
+- protect myself
+- avoid getting infected
 - [coronavirus](disease) protection rules
 - how do i protect myself from [covid-19](disease)
 - what do i need to do to protect myself from [covid-19](disease)
 - what should i do to prevent getting infected with [covid-19](disease)
 - how can i prevent being infected with [covid-19](disease)
 - i would like to know how to avoid getting infected with [covid-19](disease)
+- what are the current safety requirements in the [UK](location)
+- how do i minimize the risks of getting infected
+- protect myself
+- avoid getting infected
 - [covid-19](disease) protection rules
-- what are the safety regulations
-- what are the current safety requirements
-- what are the current safety measures
 
 ## intent:covid_whatis
 - what is [coronavirus](disease)
@@ -394,10 +394,6 @@
 - i wanna know what the symptoms are for [covid-19](disease)
 - i would like to know what [covid-19](disease) symptoms are
 - tell me what the [covid-19](disease) symptoms are
-- what [covid](disease) symptoms are there
-- what are the [corona](disease) symptoms
-- What are the [Coronavirus](disease) symptoms?
-- Tell me about the symptoms
 
 ## intent:covid_tests
 - what are the current available [coronavirus](disease) tests
@@ -410,6 +406,7 @@
 - what are the [coronavirus](disease) statistics
 - what are the [coronavirus](disease) statistics worldwide
 - what are the [corona](disease) statistics
+- what are the [coronavirus](disease) statistics worldwide
 - what are the [covid-19](disease) statistics
 - what are the [covid-19](disease) statistics worldwide
 - what are the [covid](disease) statistics
@@ -432,7 +429,6 @@
 - how many cases of [coronavirus](disease) are there in [Russia](location)
 - how many cases of [coronavirus](disease) are there in [Brazil](location)
 - how many cases of [coronavirus](disease) are there in [Spain](location)
-- What are the statistics for the [Uk](location) this month?
 
 ## intent:symptom_duration
 - how long do [coronavirus](disease) symptoms last
@@ -448,5 +444,75 @@
 - are the symptoms for [coronavirus](disease) of lon duration
 - how long do i have to worry about [coronavirus](disease) symptoms if i have them
 
+## intent:covid19_name
+- why is it called [covid-19](disease)
+- why is the name of this virus [covid-19](disease)
+- why is it named [covid-19](disease)
+- why did they name it [covid-19](disease)
+- what is the reason behind the name [covid-19](disease)
+- how did they decide to name the virus [covid-19](disease)
+- why did they call it [CoVid-19](disease)
+- what made them name it [covid-19](disease)
+- tell me why do they call it [covid-19](disease)
+
+## intent:novel_coronavirus
+- why is it a novel [coronavirus](disease)
+- why is it called a novel [coronavirus](disease)
+- why is it a novel [coronavirus](disease)
+- tell me why it is a new [coronavirus](disease)
+- are there more [coronaviruses](disease)
+- what is a novel [coronavirus](disease)
+- is there more than one [coronavirus](disease)
+
+## intent:how_spread
+- how is the virus spread amongst humans
+- how is the [coronavirus](disease) spread
+- how do people spread the [coronavirus](disease)
+- how do people spread the virus
+- how is the virus spread
+- what makes the virus spread
+- what are the main reasons behind the spreading of the virus
+- what causes the virus to spread
+- what causes the [coronavirus](disease) to spread
+- what causes the [Covid](disease) to spread
+- what causes the [Covid-19](disease) to spread
+
 ## intent:what_questions
-- What questions can I ask you
+- what questions do you answer?
+- give me a list of questions that you answer
+- what type of questions do you answer?
+- how many questions do you answer?
+- what questions can i ask you?
+- what kind of questions can i ask you
+- what type of questions can i ask you
+- tell me what questions i can ask you
+- what are all the questions that you can answer?
+- what are all the questions i can ask you
+- what faqs do you answer
+- id like to know what questions i can ask you
+- Questions
+- provide me a list of questions that you answer
+- provide me a list of questions i can ask you
+- what kind of questions do you answer.
+- what can i ask you
+- tell me what i can ask you
+
+## intent:why_so_deadly
+- why is [coronavirus](disease) so scary
+- why is [coronavirus](disease) so deadly
+- why is [coronavirus](disease) so effective
+- why is this virus so scary
+- what makes this virus so scary
+- what makes [coronavirus](disease) so deadly
+- why is this virus scarier than other [coronaviruses](disease)
+- why is [Covid-19](disease) deadlier than other [coronaviruses](disease)
+- what makes this virus worse than others
+- what makes this virus so special
+- why do we need to be more careful with this virus.
+- why is [coronavirus](disease) propagated easier.
+- why did this virus affect so many people compared to others
+- why did this virus affect so many people
+- why is [Coronavirus](disease) so contagious
+- why is [Covid-19](disease) so contagious
+- why is [covid](disease) so contagious
+- what does this virus spread easier than other viruses
