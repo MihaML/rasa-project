@@ -33,6 +33,7 @@
 - whatsup bot
 - heeey
 - hey gorgeous how you doing
+- Hello
 
 ## intent:goodbye
 - bye
@@ -261,6 +262,7 @@
 - Do i have [Coronavirus](disease) Symptoms
 - Do i have symptoms of [Coronavirus](disease)
 - Hello I think I have [covid](disease)
+- heey do i have [covid](disease) ?
 
 ## intent:nearest_outbreak
 - where is the nearest outbreak
@@ -432,6 +434,7 @@
 - how many cases of [coronavirus](disease) are there in [Brazil](location)
 - how many cases of [coronavirus](disease) are there in [Spain](location)
 - What are the statistics for the [Uk](location) this month?
+- How many deaths are there in England
 
 ## intent:symptom_duration
 - how long do [coronavirus](disease) symptoms last
