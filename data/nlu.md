@@ -91,6 +91,7 @@
 - Obviously
 - Mhmm
 - Uh-huh
+- a litle bit
 
 ## intent:deny
 - no
@@ -263,6 +264,9 @@
 - Do i have symptoms of [Coronavirus](disease)
 - Hello I think I have [covid](disease)
 - heey do i have [covid](disease) ?
+- Do I have [covid](disease)?
+- i think thath i have feever
+- how can i know if i am sick
 
 ## intent:nearest_outbreak
 - where is the nearest outbreak
@@ -276,6 +280,7 @@
 - is there anyone that is infected near me
 - is there anyone that is infected close to me
 - where are the closest outbreaks near me
+- Most effected areas for [COVID](disease)?
 
 ## intent:treatment
 - what is the main treatment for [coronavirus](disease)
@@ -310,6 +315,8 @@
 - [covid-19](disease) vaccine state
 - Is there a vaccine?
 - is there a [covid-19](disease) vaccine available
+- How long until a vaccine is available?
+- Is there a [COVID-19](disease) vaccine?
 
 ## intent:covid_protection
 - how do i protect myself from [covid](disease)
@@ -399,6 +406,8 @@
 - Tell me about the symptoms
 - what are the [corona](disease) symptoms
 - what [covid](disease) symptoms are there
+- symptoms
+- what are the symptoms?
 
 ## intent:covid_tests
 - what are the current available [coronavirus](disease) tests
@@ -435,6 +444,8 @@
 - how many cases of [coronavirus](disease) are there in [Spain](location)
 - What are the statistics for the [Uk](location) this month?
 - How many deaths are there in England
+- How many cases are there?
+- What is the statistics for [COVID-19](disease)
 
 ## intent:symptom_duration
 - how long do [coronavirus](disease) symptoms last
@@ -523,3 +534,7 @@
 - why is [Covid-19](disease) so contagious
 - why is [covid](disease) so contagious
 - what does this virus spread easier than other viruses
+
+## intent:out_of_scope
+- ASD,lc
+- im very tired all the time
